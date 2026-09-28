@@ -1,0 +1,9 @@
+services:
+  streamlit:
+    build: .
+    container_name: workers-streamlit
+    ports:
+      - "8000:8501"
+    volumes:
+      - .:/app
+    command: streamlit run app/app.py --server.address=0.0.0.0
