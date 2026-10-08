@@ -7,4 +7,5 @@ matplotlib
 seaborn
 XGBoost
 jupyter
-
+imbalanced-learn
+mlflow
